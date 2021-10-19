@@ -27,7 +27,7 @@ namespace Structures
 
             public override string ToString()
             {
-                String result = $"{id}. [" + (doneUndone == false ? ' ' : 'x') + task;
+                String result = $"{id}. [" + (doneUndone == false ? ' ' : 'x') + "] " + task;
 
                 if(date == new DateTime()){
                     result += $"(" + date.ToString("MMM dd") + ")";
@@ -41,16 +41,10 @@ namespace Structures
         }
         static void Main(string[] args)
         {
-            Task[] tasklist = {}
-            Task newTask = new Task()
-            Task newTask = new Task();
-            newTask.id = 1;
-            newTask.doneUndone = false;
-            newTask.task = "Implement task output";
-            newTask.date = new DateTime(2008, 1, 25);
-            newTask.descript = "Use fields: title, desc, done, dueDate";
+            Task[] tasklist = {new Task(1,true, "vndzfjnvk", new DateTime(2020,8,5), "vdzfjk")};
+            
 
-            Print(newTask);
+            Console.WriteLine(tasklist[0].ToString());
         }
 
         static void Print(Task createTask)
