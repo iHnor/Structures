@@ -1,0 +1,16 @@
+/home/intern/projects/Structures/Structures/bin/Debug/net5.0/Structures
+/home/intern/projects/Structures/Structures/bin/Debug/net5.0/Structures.deps.json
+/home/intern/projects/Structures/Structures/bin/Debug/net5.0/Structures.runtimeconfig.json
+/home/intern/projects/Structures/Structures/bin/Debug/net5.0/Structures.runtimeconfig.dev.json
+/home/intern/projects/Structures/Structures/bin/Debug/net5.0/Structures.dll
+/home/intern/projects/Structures/Structures/bin/Debug/net5.0/ref/Structures.dll
+/home/intern/projects/Structures/Structures/bin/Debug/net5.0/Structures.pdb
+/home/intern/projects/Structures/Structures/obj/Debug/net5.0/Structures.csproj.AssemblyReference.cache
+/home/intern/projects/Structures/Structures/obj/Debug/net5.0/Structures.GeneratedMSBuildEditorConfig.editorconfig
+/home/intern/projects/Structures/Structures/obj/Debug/net5.0/Structures.AssemblyInfoInputs.cache
+/home/intern/projects/Structures/Structures/obj/Debug/net5.0/Structures.AssemblyInfo.cs
+/home/intern/projects/Structures/Structures/obj/Debug/net5.0/Structures.csproj.CoreCompileInputs.cache
+/home/intern/projects/Structures/Structures/obj/Debug/net5.0/Structures.dll
+/home/intern/projects/Structures/Structures/obj/Debug/net5.0/ref/Structures.dll
+/home/intern/projects/Structures/Structures/obj/Debug/net5.0/Structures.pdb
+/home/intern/projects/Structures/Structures/obj/Debug/net5.0/Structures.genruntimeconfig.cache
