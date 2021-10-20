@@ -27,8 +27,8 @@ namespace Structures
             public override string ToString()
             {
                 String result = $"{id}. [" + (doneUndone == false ? ' ' : 'x') + "] " + task;
-                if(date == new DateTime()){
-                    result += $"({date.ToString("MMM dd")})";
+                if(date != new DateTime()){
+                    result += $" ({date.ToString("MMM dd")})";
                 }
                 if(descript != null){
                     result += $"{Environment.NewLine}   {descript}";
@@ -39,9 +39,17 @@ namespace Structures
         }
         static void Main(string[] args)
         {
-            Task newTask = new Task(1, false, "Implement task output", new DateTime(2008, 1, 25), "Use fields: title, desc, done, dueDate");
-            Console.WriteLine(newTask.ToString());
-            // Print(newTask);
+            Task[] newTask = {
+                (new Task(1, false, "Implement task output", new DateTime(2008, 1, 25), "Use fields: title, desc, done, dueDate")),
+                (new Task(2, true, "Implement task output", "Use fields: title, desc, done, dueDate")),
+                (new Task(3, false, "Implement task output", new DateTime(2008, 1, 25))),
+                (new Task(4, true, "Implement task output"))
+            };
+
+            foreach(var task in newTask){
+                Console.WriteLine(task);
+                Console.WriteLine();
+            }
         }
     }
 }
